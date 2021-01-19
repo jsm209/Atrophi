@@ -1,0 +1,43 @@
+# Design Document
+This is a simple todolist app to help me learn Vue 2, as well as help me
+prioritize my life for the next year. 
+
+## My needs and key problems with how I organize myself
+1. I have a lot to do and it's hard to keep track of what order and
+when to do things.
+2. It bothers me when I physically see a list of things that are not
+crossed off or done (out of sight out of mind mentality).
+3. I want an easy to use, prioritized, single column, master list of tasks
+that tells me the order to start my tasks.
+4. I am constantly starting new lists because I have trouble maintaining my
+current lists.
+5. I want to write things I need to do down, even if it's really tiny so
+that I can get to it at some point.
+
+## MVP Requirements
+- Single column list that auto priortizes itself.
+- List self regulates itself, or otherwise makes it easier for me to regulate
+it (i.e. toss junk or expired tasks off the list)
+
+
+## Luxury Requirements
+- Visibility options or optimization (only seeing x amount of tasks, or 
+options for filtering)
+- Task categories
+- Timetable/schedule generator
+
+## Systems/Features
+
+### Tasks properties
+The things I want to know about a task are:
+- name
+- description/notes
+- score
+- completion status
+
+
+
+### Task Decay
+Tasks should decay over time if I didn't do it today such that eventually
+they will completely disappear if I never feel an urge to do it. I should
+also be able to mark tasks as 'important' so they won't decay.
